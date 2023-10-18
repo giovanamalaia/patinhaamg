@@ -44,11 +44,13 @@ function EventCalendar() {
 
     return (
         <div className='box'>
-            <Calendar
-                className='calendario'
-                tileContent={tileContent}
-                onClickDay={mostraEvento}
-            />
+            <div>
+                <Calendar
+                    className='calendario'
+                    tileContent={tileContent}
+                    onClickDay={mostraEvento}
+                />
+            </div>
             {eventoSelecionado ? (
                 <div className="detalhes">
                     <div className='d2'>
