@@ -1,0 +1,21 @@
+/* styles.css */
+
+.bola-evento {
+    height: 8px;
+    width: 8px;
+    background-color: #D9731F;/* Cor da bolinha */
+    border-radius: 50%; /* Borda arredondada para a bolinha */
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.detalhes{
+    background-color: rgba(217, 115, 31, 0.75);
+    border-radius: 20px;
+    text-align: center;
+}
+
