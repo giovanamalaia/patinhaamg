@@ -1,10 +1,11 @@
 import React from 'react';
 import EventsPage from './EventsPage';
+import Header from './Header';
 
 function App() {
   return (
     <div>
-      <h1>Patinha Amiga</h1>
+      <Header/>
       <EventsPage />
     </div>
   );
